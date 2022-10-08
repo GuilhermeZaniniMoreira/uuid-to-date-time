@@ -1,2 +1,2 @@
-export * from './UUIDInput';
-export * from './UUIDDateAndTime';
+export * from './UUIDInput'
+export * from './UUIDDateAndTime'

@@ -26,8 +26,8 @@ function App() {
   }
 
   useEffect(() => {
-    if (!UUID) setDate(null);
-  }, [UUID]);
+    if (!UUID) setDate(null)
+  }, [UUID])
 
   return (
     <React.Fragment>

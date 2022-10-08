@@ -6,11 +6,16 @@ const { Search } = Input
 interface IProps {
   placeholder: string
   allowClear?: boolean
-  setUUID: Dispatch<SetStateAction<string>>;
-  onSearch: () => void;
+  setUUID: Dispatch<SetStateAction<string>>
+  onSearch: () => void
 }
 
-const UUIDInput: React.FC<IProps> = ({ placeholder, allowClear, setUUID, onSearch }) => (
+const UUIDInput: React.FC<IProps> = ({
+  placeholder,
+  allowClear,
+  setUUID,
+  onSearch,
+}) => (
   <Search
     placeholder={placeholder}
     allowClear={allowClear ?? true}
