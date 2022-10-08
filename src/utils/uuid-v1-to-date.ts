@@ -1,5 +1,5 @@
 const UUIDV1ToDate = (uuid: string) => {
-  const sets = uuid.split("-");
+  const sets = uuid.split('-');
   if (sets.length === 5) {
     const firstSet = sets[2];
     const firstSetHEX = firstSet.slice(-3);
